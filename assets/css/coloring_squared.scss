@@ -1,0 +1,177 @@
+.coloring-squared-item {
+  border-collapse: collapse;
+  // A4 width:
+  margin: 0 auto;
+}
+
+.coloring-squared-item__block {
+  border: 1px solid #666;
+  font-size: 9.5px;
+  text-align: center;
+  text-wrap: nowrap;
+  height: 11mm;
+  min-height: 11mm;
+  max-height: 11mm;
+  width: 11mm;
+  min-width: 11mm;
+  max-width: 11mm;
+}
+
+.coloring-squared-item__block--cells-in-a-row-19 {
+  height: 11mm;
+  min-height: 11mm;
+  max-height: 11mm;
+  width: 11mm;
+  min-width: 11mm;
+  max-width: 11mm;
+}
+
+.coloring-squared-legend__entry {
+  display: inline-block;
+  width: 68mm;
+  border: 1px solid black;
+  box-sizing: border-box;
+  margin-bottom: 2mm;
+  margin-right: 3mm;
+  padding: 5px;
+
+  &:nth-child(3n) {
+    margin-right: 0;
+  }
+}
+
+.coloring-squared-legend__wrapper {
+  margin-top: 20px;
+}
+
+.coloring-squared-legend__label {
+  display: inline-block;
+  text-align: right;
+  padding-right: 10px;
+  width: 24mm;
+}
+
+.coloring-squared-legend__color-block {
+  display: inline-block;
+  width: 20px;
+  min-width: 20px;
+  height: 20px;
+  border-color: #666;
+  margin-left: 10px;
+}
+
+.coloring-squared-legend__color-name {
+  display: inline-block;
+  padding-left: 10px;
+}
+
+$almost-white: #EEE;
+
+.coloring-squared-legend__color-block, .coloring-squared-item__block {
+  &--black {
+    background-color: black;
+    @media screen {
+      color: $almost-white;
+    }
+  }
+
+  &--white {
+    background-color: white;
+  }
+
+  &--red {
+    background-color: red;
+    @media screen {
+      color: $almost-white;
+    }
+  }
+
+  &--green {
+    background-color: green;
+    @media screen {
+      color: $almost-white;
+    }
+  }
+
+  &--lightgreen {
+    background-color: lightgreen;
+  }
+
+  &--blue {
+    background-color: blue;
+    @media screen {
+      color: $almost-white;
+    }
+  }
+
+  &--yellow {
+    background-color: yellow;
+  }
+
+  &--orange {
+    background-color: orange;
+  }
+
+  &--purple {
+    background-color: purple;
+    @media screen {
+      color: $almost-white;
+    }
+  }
+
+  &--brown {
+    background-color: brown;
+    @media screen {
+      color: $almost-white;
+    }
+  }
+
+  &--gray {
+    background-color: gray;
+  }
+
+  &--pink {
+    background-color: pink;
+  }
+
+  &--cyan {
+    background-color: cyan;
+  }
+}
+
+.coloring-squared-gallery__item {
+  height: 380px;
+  overflow-y: hidden;
+}
+
+.coloring-squared-gallery__item-info {
+  height: 100px;
+}
+
+.coloring-squared-gallery__item-description {
+  font-size: 14px
+}
+
+.coloring-squared-item__actions {
+  text-align: right;
+}
+
+.coloring-squired-item__viewing_option {
+  width: 120px;
+}
+
+.coloring-squired-item__viewing_option-info {
+  padding: 5px;
+}
+.coloring-squired-item__viewing_option-description-wrapper {
+  display: flex;
+  font-size: 14px;
+  min-height: 39px;
+  justify-content: center;
+  align-items: center;
+}
+
+.coloring-squired-item__viewing_option-image-wrapper {
+  display: inline-block;
+  min-height: 156px;
+}
