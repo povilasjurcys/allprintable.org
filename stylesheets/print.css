@@ -16,6 +16,7 @@ main.my-5 {
 }
 .container {
   width: 100%;
+  min-width: 100%;
   margin: 0;
   padding: 0;
 }
