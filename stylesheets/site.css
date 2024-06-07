@@ -1,4 +1,7 @@
 @charset "UTF-8";
+@import url(./vendor/bootstrap-5.3.3.css);
+@import url(./vendor/font-awesome-6.0.0.css);
+@import url(./vendor/google-fonts.css);
 .coloring-squared-item {
   border-collapse: collapse;
   margin: 0 auto; }
@@ -30,7 +33,7 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   margin-bottom: 2mm;
-  margin-right: 2mm;
+  margin-right: 6px;
   padding: 5px; }
   .coloring-squared-legend__entry:nth-child(3n) {
     margin-right: 0; }
@@ -107,16 +110,6 @@
 .coloring-squared-legend__color-block--cyan, .coloring-squared-item__block--cyan {
   background-color: cyan; }
 
-.coloring-squared-gallery__item {
-  height: 380px;
-  overflow-y: hidden; }
-
-.coloring-squared-gallery__item-info {
-  height: 100px; }
-
-.coloring-squared-gallery__item-description {
-  font-size: 14px; }
-
 .coloring-squared-item__actions {
   text-align: right; }
 
@@ -136,6 +129,16 @@
 .coloring-squared-item__viewing_option-image-wrapper {
   display: inline-block;
   min-height: 156px; }
+
+.items-gallery__item {
+  height: 380px;
+  overflow-y: hidden; }
+
+.items-gallery__item-info {
+  height: 100px; }
+
+.items-gallery__item-description {
+  font-size: 14px; }
 
 .printable-background {
   -webkit-print-color-adjust: exact !important;
