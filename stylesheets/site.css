@@ -149,25 +149,3 @@
 .a4-container {
   width: 210mm;
   margin: 0 auto; }
-
-@media print {
-  /* print.css is used to reset the default css of the print page and when generating the pdf/png file. */
-  /* !!! DO NOT USE @media print inside this file. All media types are set outside this class (in main.scss) */
-  main {
-    width: 100%;
-    margin: 0;
-    padding: 0; }
-  main.my-5 {
-    margin-top: 0 !important;
-    margin-bottom: 0 !important; }
-  .no-print {
-    display: none !important; }
-  .container {
-    width: 100%;
-    min-width: 100%;
-    margin: 0;
-    padding: 0; }
-  .print-as-bg-transparent {
-    background-color: transparent !important; }
-  .print-as-black-text {
-    color: #000 !important; } }
