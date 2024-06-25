@@ -21,10 +21,3 @@ main.my-5 {
   padding: 0;
 }
 
-.print-as-bg-transparent {
-  background-color: transparent !important;
-}
-
-.print-as-black-text {
-  color: #000 !important;
-}
