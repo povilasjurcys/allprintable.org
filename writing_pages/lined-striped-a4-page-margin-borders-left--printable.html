@@ -7,244 +7,272 @@
   </head>
   <body class="printable_body">
     <style type="text/css">
+  table, th, tr, td {
+    border-color: transparent;
+    border-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+  }
+
   .a4-container {
     margin: 0px auto;
     text-align: center;
+    border: none;
   }
   .a4-paper {
     width: 800px;
     border-collapse: collapse;
     height: 1130px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
   }
 
   .a4-paper__invisible-row {
   }
 
   .a4-paper__writing-row {
-    border-bottom: 1px solid black;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-top-width: 0px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: black;
   }
 
-  .a4-paper__cell:nth-child(1), .a4-paper__cell:nth-child(3) {
+  .a4-paper__cell--left, .a4-paper__cell--right {
     width: 10%;
   }
 
+  .a4-page--margin-borders-left .a4-paper__cell--left {
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
 
-  .a4-paper--margin-line-left {
-    border-left: 1px solid red;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: #ff0000;
   }
 
-  .a4-page--margin-borders-left .a4-paper__cell:nth-child(1) {
-    border-right: 1px solid red;
-  }
+  .a4-page--margin-borders-right .a4-paper__cell--right {
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
 
-  .a4-page--margin-borders-right .a4-paper__cell:nth-child(3) {
-    border-left: 1px solid red;
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color: #ff0000;
   }
 </style>
 <div class="a4-container">
   <table class="a4-paper a4-page--margin-borders-left">
         <tr class="a4-paper__invisible-row" style="">
-      <td class="a4-paper__cell"></td>
-      <td class="a4-paper__cell"></td>
-      <td class="a4-paper__cell"></td>
+      <td class="a4-paper__cell a4-paper__cell--left"></td>
+      <td class="a4-paper__cell "></td>
+      <td class="a4-paper__cell a4-paper__cell--right"></td>
   </tr>
 
         <tr class="a4-paper__invisible-row" style="">
-      <td class="a4-paper__cell"></td>
-      <td class="a4-paper__cell"></td>
-      <td class="a4-paper__cell"></td>
+      <td class="a4-paper__cell a4-paper__cell--left"></td>
+      <td class="a4-paper__cell "></td>
+      <td class="a4-paper__cell a4-paper__cell--right"></td>
   </tr>
 
         <tr class="a4-paper__writing-row" style="">
-      <td class="a4-paper__cell"></td>
-      <td class="a4-paper__cell"></td>
-      <td class="a4-paper__cell"></td>
+      <td class="a4-paper__cell a4-paper__cell--left"></td>
+      <td class="a4-paper__cell "></td>
+      <td class="a4-paper__cell a4-paper__cell--right"></td>
   </tr>
 
         <tr class="a4-paper__writing-row" style="">
-      <td class="a4-paper__cell"></td>
-      <td class="a4-paper__cell"></td>
-      <td class="a4-paper__cell"></td>
+      <td class="a4-paper__cell a4-paper__cell--left"></td>
+      <td class="a4-paper__cell "></td>
+      <td class="a4-paper__cell a4-paper__cell--right"></td>
   </tr>
 
         <tr class="a4-paper__writing-row" style="">
-      <td class="a4-paper__cell"></td>
-      <td class="a4-paper__cell"></td>
-      <td class="a4-paper__cell"></td>
+      <td class="a4-paper__cell a4-paper__cell--left"></td>
+      <td class="a4-paper__cell "></td>
+      <td class="a4-paper__cell a4-paper__cell--right"></td>
   </tr>
 
         <tr class="a4-paper__writing-row" style="">
-      <td class="a4-paper__cell"></td>
-      <td class="a4-paper__cell"></td>
-      <td class="a4-paper__cell"></td>
+      <td class="a4-paper__cell a4-paper__cell--left"></td>
+      <td class="a4-paper__cell "></td>
+      <td class="a4-paper__cell a4-paper__cell--right"></td>
   </tr>
 
         <tr class="a4-paper__writing-row" style="">
-      <td class="a4-paper__cell"></td>
-      <td class="a4-paper__cell"></td>
-      <td class="a4-paper__cell"></td>
+      <td class="a4-paper__cell a4-paper__cell--left"></td>
+      <td class="a4-paper__cell "></td>
+      <td class="a4-paper__cell a4-paper__cell--right"></td>
   </tr>
 
         <tr class="a4-paper__writing-row" style="">
-      <td class="a4-paper__cell"></td>
-      <td class="a4-paper__cell"></td>
-      <td class="a4-paper__cell"></td>
+      <td class="a4-paper__cell a4-paper__cell--left"></td>
+      <td class="a4-paper__cell "></td>
+      <td class="a4-paper__cell a4-paper__cell--right"></td>
   </tr>
 
         <tr class="a4-paper__writing-row" style="">
-      <td class="a4-paper__cell"></td>
-      <td class="a4-paper__cell"></td>
-      <td class="a4-paper__cell"></td>
+      <td class="a4-paper__cell a4-paper__cell--left"></td>
+      <td class="a4-paper__cell "></td>
+      <td class="a4-paper__cell a4-paper__cell--right"></td>
   </tr>
 
         <tr class="a4-paper__writing-row" style="">
-      <td class="a4-paper__cell"></td>
-      <td class="a4-paper__cell"></td>
-      <td class="a4-paper__cell"></td>
+      <td class="a4-paper__cell a4-paper__cell--left"></td>
+      <td class="a4-paper__cell "></td>
+      <td class="a4-paper__cell a4-paper__cell--right"></td>
   </tr>
 
         <tr class="a4-paper__writing-row" style="">
-      <td class="a4-paper__cell"></td>
-      <td class="a4-paper__cell"></td>
-      <td class="a4-paper__cell"></td>
+      <td class="a4-paper__cell a4-paper__cell--left"></td>
+      <td class="a4-paper__cell "></td>
+      <td class="a4-paper__cell a4-paper__cell--right"></td>
   </tr>
 
         <tr class="a4-paper__writing-row" style="">
-      <td class="a4-paper__cell"></td>
-      <td class="a4-paper__cell"></td>
-      <td class="a4-paper__cell"></td>
+      <td class="a4-paper__cell a4-paper__cell--left"></td>
+      <td class="a4-paper__cell "></td>
+      <td class="a4-paper__cell a4-paper__cell--right"></td>
   </tr>
 
         <tr class="a4-paper__writing-row" style="">
-      <td class="a4-paper__cell"></td>
-      <td class="a4-paper__cell"></td>
-      <td class="a4-paper__cell"></td>
+      <td class="a4-paper__cell a4-paper__cell--left"></td>
+      <td class="a4-paper__cell "></td>
+      <td class="a4-paper__cell a4-paper__cell--right"></td>
   </tr>
 
         <tr class="a4-paper__writing-row" style="">
-      <td class="a4-paper__cell"></td>
-      <td class="a4-paper__cell"></td>
-      <td class="a4-paper__cell"></td>
+      <td class="a4-paper__cell a4-paper__cell--left"></td>
+      <td class="a4-paper__cell "></td>
+      <td class="a4-paper__cell a4-paper__cell--right"></td>
   </tr>
 
         <tr class="a4-paper__writing-row" style="">
-      <td class="a4-paper__cell"></td>
-      <td class="a4-paper__cell"></td>
-      <td class="a4-paper__cell"></td>
+      <td class="a4-paper__cell a4-paper__cell--left"></td>
+      <td class="a4-paper__cell "></td>
+      <td class="a4-paper__cell a4-paper__cell--right"></td>
   </tr>
 
         <tr class="a4-paper__writing-row" style="">
-      <td class="a4-paper__cell"></td>
-      <td class="a4-paper__cell"></td>
-      <td class="a4-paper__cell"></td>
+      <td class="a4-paper__cell a4-paper__cell--left"></td>
+      <td class="a4-paper__cell "></td>
+      <td class="a4-paper__cell a4-paper__cell--right"></td>
   </tr>
 
         <tr class="a4-paper__writing-row" style="">
-      <td class="a4-paper__cell"></td>
-      <td class="a4-paper__cell"></td>
-      <td class="a4-paper__cell"></td>
+      <td class="a4-paper__cell a4-paper__cell--left"></td>
+      <td class="a4-paper__cell "></td>
+      <td class="a4-paper__cell a4-paper__cell--right"></td>
   </tr>
 
         <tr class="a4-paper__writing-row" style="">
-      <td class="a4-paper__cell"></td>
-      <td class="a4-paper__cell"></td>
-      <td class="a4-paper__cell"></td>
+      <td class="a4-paper__cell a4-paper__cell--left"></td>
+      <td class="a4-paper__cell "></td>
+      <td class="a4-paper__cell a4-paper__cell--right"></td>
   </tr>
 
         <tr class="a4-paper__writing-row" style="">
-      <td class="a4-paper__cell"></td>
-      <td class="a4-paper__cell"></td>
-      <td class="a4-paper__cell"></td>
+      <td class="a4-paper__cell a4-paper__cell--left"></td>
+      <td class="a4-paper__cell "></td>
+      <td class="a4-paper__cell a4-paper__cell--right"></td>
   </tr>
 
         <tr class="a4-paper__writing-row" style="">
-      <td class="a4-paper__cell"></td>
-      <td class="a4-paper__cell"></td>
-      <td class="a4-paper__cell"></td>
+      <td class="a4-paper__cell a4-paper__cell--left"></td>
+      <td class="a4-paper__cell "></td>
+      <td class="a4-paper__cell a4-paper__cell--right"></td>
   </tr>
 
         <tr class="a4-paper__writing-row" style="">
-      <td class="a4-paper__cell"></td>
-      <td class="a4-paper__cell"></td>
-      <td class="a4-paper__cell"></td>
+      <td class="a4-paper__cell a4-paper__cell--left"></td>
+      <td class="a4-paper__cell "></td>
+      <td class="a4-paper__cell a4-paper__cell--right"></td>
   </tr>
 
         <tr class="a4-paper__writing-row" style="">
-      <td class="a4-paper__cell"></td>
-      <td class="a4-paper__cell"></td>
-      <td class="a4-paper__cell"></td>
+      <td class="a4-paper__cell a4-paper__cell--left"></td>
+      <td class="a4-paper__cell "></td>
+      <td class="a4-paper__cell a4-paper__cell--right"></td>
   </tr>
 
         <tr class="a4-paper__writing-row" style="">
-      <td class="a4-paper__cell"></td>
-      <td class="a4-paper__cell"></td>
-      <td class="a4-paper__cell"></td>
+      <td class="a4-paper__cell a4-paper__cell--left"></td>
+      <td class="a4-paper__cell "></td>
+      <td class="a4-paper__cell a4-paper__cell--right"></td>
   </tr>
 
         <tr class="a4-paper__writing-row" style="">
-      <td class="a4-paper__cell"></td>
-      <td class="a4-paper__cell"></td>
-      <td class="a4-paper__cell"></td>
+      <td class="a4-paper__cell a4-paper__cell--left"></td>
+      <td class="a4-paper__cell "></td>
+      <td class="a4-paper__cell a4-paper__cell--right"></td>
   </tr>
 
         <tr class="a4-paper__writing-row" style="">
-      <td class="a4-paper__cell"></td>
-      <td class="a4-paper__cell"></td>
-      <td class="a4-paper__cell"></td>
+      <td class="a4-paper__cell a4-paper__cell--left"></td>
+      <td class="a4-paper__cell "></td>
+      <td class="a4-paper__cell a4-paper__cell--right"></td>
   </tr>
 
         <tr class="a4-paper__writing-row" style="">
-      <td class="a4-paper__cell"></td>
-      <td class="a4-paper__cell"></td>
-      <td class="a4-paper__cell"></td>
+      <td class="a4-paper__cell a4-paper__cell--left"></td>
+      <td class="a4-paper__cell "></td>
+      <td class="a4-paper__cell a4-paper__cell--right"></td>
   </tr>
 
         <tr class="a4-paper__writing-row" style="">
-      <td class="a4-paper__cell"></td>
-      <td class="a4-paper__cell"></td>
-      <td class="a4-paper__cell"></td>
+      <td class="a4-paper__cell a4-paper__cell--left"></td>
+      <td class="a4-paper__cell "></td>
+      <td class="a4-paper__cell a4-paper__cell--right"></td>
   </tr>
 
         <tr class="a4-paper__writing-row" style="">
-      <td class="a4-paper__cell"></td>
-      <td class="a4-paper__cell"></td>
-      <td class="a4-paper__cell"></td>
+      <td class="a4-paper__cell a4-paper__cell--left"></td>
+      <td class="a4-paper__cell "></td>
+      <td class="a4-paper__cell a4-paper__cell--right"></td>
   </tr>
 
         <tr class="a4-paper__writing-row" style="">
-      <td class="a4-paper__cell"></td>
-      <td class="a4-paper__cell"></td>
-      <td class="a4-paper__cell"></td>
+      <td class="a4-paper__cell a4-paper__cell--left"></td>
+      <td class="a4-paper__cell "></td>
+      <td class="a4-paper__cell a4-paper__cell--right"></td>
   </tr>
 
         <tr class="a4-paper__writing-row" style="">
-      <td class="a4-paper__cell"></td>
-      <td class="a4-paper__cell"></td>
-      <td class="a4-paper__cell"></td>
+      <td class="a4-paper__cell a4-paper__cell--left"></td>
+      <td class="a4-paper__cell "></td>
+      <td class="a4-paper__cell a4-paper__cell--right"></td>
   </tr>
 
         <tr class="a4-paper__writing-row" style="">
-      <td class="a4-paper__cell"></td>
-      <td class="a4-paper__cell"></td>
-      <td class="a4-paper__cell"></td>
+      <td class="a4-paper__cell a4-paper__cell--left"></td>
+      <td class="a4-paper__cell "></td>
+      <td class="a4-paper__cell a4-paper__cell--right"></td>
   </tr>
 
         <tr class="a4-paper__writing-row" style="">
-      <td class="a4-paper__cell"></td>
-      <td class="a4-paper__cell"></td>
-      <td class="a4-paper__cell"></td>
+      <td class="a4-paper__cell a4-paper__cell--left"></td>
+      <td class="a4-paper__cell "></td>
+      <td class="a4-paper__cell a4-paper__cell--right"></td>
   </tr>
 
         <tr class="a4-paper__invisible-row" style="">
-      <td class="a4-paper__cell"></td>
-      <td class="a4-paper__cell"></td>
-      <td class="a4-paper__cell"></td>
+      <td class="a4-paper__cell a4-paper__cell--left"></td>
+      <td class="a4-paper__cell "></td>
+      <td class="a4-paper__cell a4-paper__cell--right"></td>
   </tr>
 
         <tr class="a4-paper__invisible-row" style="">
-      <td class="a4-paper__cell"></td>
-      <td class="a4-paper__cell"></td>
-      <td class="a4-paper__cell"></td>
+      <td class="a4-paper__cell a4-paper__cell--left"></td>
+      <td class="a4-paper__cell "></td>
+      <td class="a4-paper__cell a4-paper__cell--right"></td>
   </tr>
 
   </table>
