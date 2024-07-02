@@ -8054,26 +8054,6 @@ textarea.form-control-lg {
 .coloring-squared-legend__color-block--cyan, .coloring-squared-item__block--cyan {
   background-color: cyan; }
 
-.coloring-squared-item__actions {
-  text-align: right; }
-
-.coloring-squared-item__viewing_option {
-  width: 120px; }
-
-.coloring-squared-item__viewing_option-info {
-  padding: 5px; }
-
-.coloring-squared-item__viewing_option-description-wrapper {
-  display: flex;
-  font-size: 14px;
-  min-height: 39px;
-  justify-content: center;
-  align-items: center; }
-
-.coloring-squared-item__viewing_option-image-wrapper {
-  display: inline-block;
-  min-height: 156px; }
-
 .items-gallery__item {
   height: 380px;
   overflow-y: hidden; }
@@ -8083,6 +8063,9 @@ textarea.form-control-lg {
 
 .items-gallery__item-description {
   font-size: 14px; }
+
+.items-gallery-item__actions {
+  text-align: right; }
 
 .printable-background {
   -webkit-print-color-adjust: exact !important;
