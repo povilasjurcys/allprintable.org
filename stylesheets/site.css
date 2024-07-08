@@ -1,4 +1,77 @@
 @charset "UTF-8";
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px; }
+
+h1 {
+  font-size: 48px; }
+
+h2 {
+  font-size: 42px; }
+
+h3 {
+  font-size: 36px; }
+
+h4 {
+  font-size: 30px; }
+
+h5 {
+  font-size: 24px; }
+
+h6 {
+  font-size: 18px; }
+
+:root {
+  font-family: Arial, Helvetica, sans-serif; }
+
 /*!
  * Bootstrap v5.0.2 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
@@ -7945,15 +8018,16 @@ textarea.form-control-lg {
 
 .coloring-squared-item__block {
   border: 1px solid #666;
-  font-size: 9.5px;
+  font-size: 15px;
+  vertical-align: middle;
   text-align: center;
   text-wrap: nowrap;
-  height: 11mm;
-  min-height: 11mm;
-  max-height: 11mm;
-  width: 11mm;
-  min-width: 11mm;
-  max-width: 11mm; }
+  height: 53.8px;
+  min-height: 53.8px;
+  max-height: 53.8px;
+  width: 53.8px;
+  min-width: 53.8px;
+  max-width: 53.8px; }
 
 .coloring-squared-item__over-image-title {
   background-color: white;
@@ -7963,41 +8037,51 @@ textarea.form-control-lg {
   position: relative; }
 
 .coloring-squared-item__block--cells-in-a-row-19 {
-  height: 11mm;
-  min-height: 11mm;
-  max-height: 11mm;
-  width: 11mm;
-  min-width: 11mm;
-  max-width: 11mm; }
+  height: 52.79px;
+  min-height: 52.79px;
+  max-height: 52.79px;
+  width: 52.79px;
+  min-width: 52.79px;
+  max-width: 52.79px; }
 
 .coloring-squared-legend__entry {
-  display: inline-block;
-  width: 68mm;
   border: 1px solid black;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  margin-bottom: 2mm;
-  margin-right: 2mm;
-  padding: 5px; }
-  .coloring-squared-legend__entry:nth-child(3n) {
-    margin-right: 0; }
+  display: inline-block;
+  font-size: 17px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  padding: 5px;
+  width: 248px; }
+
+.coloring-squared-legend__entry--4th {
+  margin-right: 0; }
 
 .coloring-squared-legend__wrapper {
-  margin-top: 20px; }
+  margin-top: 75px; }
 
 .coloring-squared-legend__label {
   display: inline-block;
   text-align: right;
   padding-right: 10px;
-  width: 24mm; }
+  width: 90px; }
 
 .coloring-squared-legend__color-block {
   display: inline-block;
-  width: 20px;
-  min-width: 20px;
-  height: 20px;
+  width: 18px;
+  min-width: 18px;
+  height: 18px;
   border-color: #666;
-  margin-left: 10px; }
+  margin-left: 10px;
+  border: 1px solid black;
+  position: relative;
+  top: 4px; }
+
+.coloring-squared-legend__title {
+  font-size: 24px;
+  margin-bottom: 25px;
+  text-align: left; }
 
 .coloring-squared-legend__color-name {
   display: inline-block;
@@ -8074,8 +8158,22 @@ textarea.form-control-lg {
   print-color-adjust: exact !important; }
 
 .a4-container {
-  width: 210mm;
-  margin: 0 auto; }
+  width: 1024px;
+  margin: 0;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-top-width: 0px;
+  border-bottom-width: 0px;
+  border-collapse: collapse; }
+
+.a4-single-page--portrait {
+  width: 1024px;
+  border-collapse: collapse;
+  height: 1446px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-top-width: 0px;
+  border-bottom-width: 0px; }
 
 .enforced-bg-transparent {
   background-color: transparent !important; }
