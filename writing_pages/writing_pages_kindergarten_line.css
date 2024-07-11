@@ -1,0 +1,98 @@
+table, th, tr, td {
+  border-color: transparent;
+  border-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-top-width: 0px;
+  border-bottom-width: 0px;
+}
+
+.a4-container {
+  margin: 0px auto;
+  text-align: center;
+  border: none;
+}
+
+.a4-paper__writing-row {
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-top-width: 0px;
+  border-bottom-width: 0px;
+}
+
+.a4-paper__cell--left,
+.a4-paper__cell--right {
+  width: 100px;
+}
+
+.a4-paper__cell--middle {
+  width: 824px;
+}
+
+.a4-page--margin-borders-left .a4-paper__cell--left {
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-top-width: 0px;
+  border-bottom-width: 0px;
+
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #ff0000;
+}
+
+.a4-page--margin-borders-right .a4-paper__cell--right {
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-top-width: 0px;
+  border-bottom-width: 0px;
+
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #ff0000;
+}
+
+.a4-paper__kindergarden-line-part-cell--top,
+.a4-page--margin-borders-right .a4-paper__kindergarden-line-part-cell--top,
+.a4-page--margin-borders-left .a4-paper__kindergarden-line-part-cell--top {
+  /* background-color: blue; */
+  border-top-width: 2px;
+  border-top-style: solid;
+  border-top-color: darkgray;
+}
+
+.a4-paper__kindergarden-line-part-cell--center,
+.a4-page--margin-borders-right .a4-paper__kindergarden-line-part-cell--center,
+.a4-page--margin-borders-left .a4-paper__kindergarden-line-part-cell--center {
+  /* background-color: green; */
+  border-top-width: 1px;
+  border-top-style: dashed;
+  border-top-color: darkgray;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  border-bottom-color: darkgray;
+}
+
+.a4-paper__kindergarden-line-part-cell--bottom,
+.a4-page--margin-borders-right .a4-paper__kindergarden-line-part-cell--bottom,
+.a4-page--margin-borders-left .a4-paper__kindergarden-line-part-cell--bottom {
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  border-bottom-color: darkgray;
+}
+
+.a4-paper__invisible-row .a4-paper__kindergarden-line-part-cell--top,
+.a4-paper__invisible-row .a4-paper__kindergarden-line-part-cell--center,
+.a4-paper__invisible-row .a4-paper__kindergarden-line-part-cell--bottom {
+  border-top-width: 0px;
+  border-bottom-width: 0px;
+  height: 15px;
+  min-height: 15px;
+  max-height: 15px;
+}
+
+.a4-paper__writing-row.a4-paper__kindergarden-line-part--bottom.row-index-11 .a4-paper__kindergarden-line-part-cell--bottom {
+  border-bottom-width: 0;
+  height: 0px;
+  min-height: 0px;
+  max-height: 0px;
+}
