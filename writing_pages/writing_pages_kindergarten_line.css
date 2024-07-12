@@ -80,9 +80,9 @@ table, th, tr, td {
   border-bottom-color: darkgray;
 }
 
-.a4-paper__invisible-row .a4-paper__kindergarden-line-part-cell--top,
-.a4-paper__invisible-row .a4-paper__kindergarden-line-part-cell--center,
-.a4-paper__invisible-row .a4-paper__kindergarden-line-part-cell--bottom {
+.row-index-0 .a4-paper__kindergarden-line-part-cell--top,
+.row-index-0 .a4-paper__kindergarden-line-part-cell--center,
+.row-index-0 .a4-paper__kindergarden-line-part-cell--bottom {
   border-top-width: 0px;
   border-bottom-width: 0px;
   height: 15px;

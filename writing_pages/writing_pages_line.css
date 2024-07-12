@@ -22,6 +22,16 @@ table, th, tr, td {
   border-bottom-color: black;
 }
 
+.row-index-0,
+.row-index-28,
+.row-index-29 {
+  border-bottom-width: 0px !important;
+}
+
+.a4-paper__cell {
+  height: 48.2px;
+}
+
 .a4-paper__cell--left,
 .a4-paper__cell--right {
   width: 100px;

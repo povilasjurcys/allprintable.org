@@ -199,7 +199,7 @@ h6 {
   background-color: cyan; }
 
 .items-gallery__item {
-  height: 380px;
+  width: 350px;
   overflow-y: hidden; }
 
 .items-gallery__item-info {
