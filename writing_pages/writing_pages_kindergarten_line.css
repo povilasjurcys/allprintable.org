@@ -90,6 +90,13 @@ table, th, tr, td {
   max-height: 15px;
 }
 
+.row-index-9 .a4-paper__kindergarden-line-part-cell--bottom {
+  border-bottom-width: 0px;
+  height: 45px;
+  min-height: 45px;
+  max-height: 45px;
+}
+
 .a4-paper__writing-row.a4-paper__kindergarden-line-part--bottom.row-index-11 .a4-paper__kindergarden-line-part-cell--bottom {
   border-bottom-width: 0;
   height: 0px;
